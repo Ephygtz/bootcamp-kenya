@@ -1,0 +1,14 @@
+var fizzBuzz = function(argument) {
+      if(argument%3 ===0 && argument%5===0 ){
+      return "FizzBuzz";
+  }
+      else if(argument%3 === 0 ){
+        return "Fizz";
+        }
+        else if(argument%5===0) {
+          return "Buzz";
+          }
+            else {
+              return argument;
+            }
+    }
